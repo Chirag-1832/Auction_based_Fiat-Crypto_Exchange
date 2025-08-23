@@ -1,0 +1,186 @@
+[
+  {
+    "name_of_bid": "Vendor A",
+    "public_address_of_account": "0xA1B2C3D4E5F60123456789abcdef1234567890ab",
+    "bids": [
+      { "buyer_address": "0xB1C2D3E4F5A60123456789abcdef1234567890bc", "buyer_bid_amount": 1500 },
+      { "buyer_address": "0xC1D2E3F4A5B60123456789abcdef1234567890cd", "buyer_bid_amount": 1600 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor B",
+    "public_address_of_account": "0xB2C3D4E5F6A70123456789abcdef1234567890cd",
+    "bids": [
+      { "buyer_address": "0xD1E2F3A4B5C60123456789abcdef1234567890de", "buyer_bid_amount": 2500 }
+    ],
+    "bid_open": false,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor C",
+    "public_address_of_account": "0xC3D4E5F6A7B80123456789abcdef1234567890ef",
+    "bids": [
+      { "buyer_address": "0xE1F2A3B4C5D60123456789abcdef1234567890fa", "buyer_bid_amount": 3200 },
+      { "buyer_address": "0xF1A2B3C4D5E60123456789abcdef1234567890ab", "buyer_bid_amount": 3300 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor D",
+    "public_address_of_account": "0xD4E5F6A7B8C90123456789abcdef1234567890ab",
+    "bids": [
+      { "buyer_address": "0xA2B3C4D5E6F70123456789abcdef1234567890bc", "buyer_bid_amount": 2800 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor E",
+    "public_address_of_account": "0xE5F6A7B8C9D00123456789abcdef1234567890bc",
+    "bids": [
+      { "buyer_address": "0xB2C3D4E5F6A70123456789abcdef1234567890cd", "buyer_bid_amount": 4000 }
+    ],
+    "bid_open": false,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor F",
+    "public_address_of_account": "0xF6A7B8C9D0E10123456789abcdef1234567890cd",
+    "bids": [
+      { "buyer_address": "0xC2D3E4F5A6B70123456789abcdef1234567890de", "buyer_bid_amount": 2200 },
+      { "buyer_address": "0xD2E3F4A5B6C70123456789abcdef1234567890ef", "buyer_bid_amount": 2300 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor G",
+    "public_address_of_account": "0xA7B8C9D0E1F20123456789abcdef1234567890de",
+    "bids": [
+      { "buyer_address": "0xE2F3A4B5C6D70123456789abcdef1234567890fa", "buyer_bid_amount": 5000 }
+    ],
+    "bid_open": false,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor H",
+    "public_address_of_account": "0xB8C9D0E1F2A30123456789abcdef1234567890ef",
+    "bids": [
+      { "buyer_address": "0xF2A3B4C5D6E70123456789abcdef1234567890ab", "buyer_bid_amount": 1200 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor I",
+    "public_address_of_account": "0xC9D0E1F2A3B40123456789abcdef1234567890fa",
+    "bids": [
+      { "buyer_address": "0xA3B4C5D6E7F70123456789abcdef1234567890bc", "buyer_bid_amount": 3500 },
+      { "buyer_address": "0xB3C4D5E6F7A80123456789abcdef1234567890cd", "buyer_bid_amount": 3600 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor J",
+    "public_address_of_account": "0xD0E1F2A3B4C50123456789abcdef1234567890ab",
+    "bids": [
+      { "buyer_address": "0xC3D4E5F6A7B80123456789abcdef1234567890de", "buyer_bid_amount": 2700 }
+    ],
+    "bid_open": false,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor K",
+    "public_address_of_account": "0xE1F2A3B4C5D60123456789abcdef1234567890bc",
+    "bids": [
+      { "buyer_address": "0xD3E4F5A6B7C80123456789abcdef1234567890ef", "buyer_bid_amount": 4100 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor L",
+    "public_address_of_account": "0xF2A3B4C5D6E70123456789abcdef1234567890cd",
+    "bids": [
+      { "buyer_address": "0xE3F4A5B6C7D80123456789abcdef1234567890fa", "buyer_bid_amount": 2900 }
+    ],
+    "bid_open": false,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor M",
+    "public_address_of_account": "0xA3B4C5D6E7F80123456789abcdef1234567890de",
+    "bids": [
+      { "buyer_address": "0xF3A4B5C6D7E90123456789abcdef1234567890ab", "buyer_bid_amount": 1500 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor N",
+    "public_address_of_account": "0xB4C5D6E7F8A90123456789abcdef1234567890ef",
+    "bids": [
+      { "buyer_address": "0xA4B5C6D7E8F00123456789abcdef1234567890bc", "buyer_bid_amount": 3100 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor O",
+    "public_address_of_account": "0xC5D6E7F8A9B00123456789abcdef1234567890fa",
+    "bids": [
+      { "buyer_address": "0xB4C5D6E7F8A90123456789abcdef1234567890cd", "buyer_bid_amount": 4300 }
+    ],
+    "bid_open": false,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor P",
+    "public_address_of_account": "0xD6E7F8A9B0C10123456789abcdef1234567890ab",
+    "bids": [
+      { "buyer_address": "0xC4D5E6F7A8B90123456789abcdef1234567890de", "buyer_bid_amount": 1900 }
+    ],
+    "bid_open": true,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor Q",
+    "public_address_of_account": "0xE7F8A9B0C1D20123456789abcdef1234567890bc",
+    "bids": [
+      { "buyer_address": "0xD4E5F6A7B8C90123456789abcdef1234567890ef", "buyer_bid_amount": 3700 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor R",
+    "public_address_of_account": "0xF8A9B0C1D2E30123456789abcdef1234567890cd",
+    "bids": [
+      { "buyer_address": "0xE4F5A6B7C8D00123456789abcdef1234567890fa", "buyer_bid_amount": 2800 }
+    ],
+    "bid_open": false,
+    "payment_complete": false
+  },
+  {
+    "name_of_bid": "Vendor S",
+    "public_address_of_account": "0xA9B0C1D2E3F40123456789abcdef1234567890de",
+    "bids": [
+      { "buyer_address": "0xF4A5B6C7D8E10123456789abcdef1234567890ab", "buyer_bid_amount": 3300 }
+    ],
+    "bid_open": true,
+    "payment_complete": true
+  },
+  {
+    "name_of_bid": "Vendor T",
+    "public_address_of_account": "0xB0C1D2E3F4A50123456789abcdef1234567890ef",
+    "bids": [
+      { "buyer_address": "0xA5B6C7D8E9F20123456789abcdef1234567890bc", "buyer_bid_amount": 2600 }
+    ],
+    "bid_open": false,
+    "payment_complete": false
+  }
+]
