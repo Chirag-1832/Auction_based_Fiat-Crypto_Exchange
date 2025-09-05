@@ -97,7 +97,8 @@ const handleBid = async (bid_want, amount) => {
                 </button>
             </div>
         </div>
-        {offers.length > 0 && offers.map((offer, idx) => <OfferCard key={idx} offer={offer} vendorID={vendor.vendor_id} />)}
+        {offers.length > 0 && offers.map((offer, idx) => <OfferCard key={idx} offer={offer} vendorID={vendor.vendor_id}
+         vendor_address={vendor.public_address_of_account} />)}
     </div>
     );
 };

@@ -21,6 +21,7 @@ const Header = () => {
     }
   };
 
+
     return (
         <div className="flex justify-between  mx-3 border-b-2 border-gray-200">
             <div className="flex gap-4">

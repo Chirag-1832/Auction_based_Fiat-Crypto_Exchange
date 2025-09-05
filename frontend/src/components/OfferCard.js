@@ -3,16 +3,24 @@ import { ethers } from "ethers";
 import EscrowABI from "../../../hardhat/artifacts/contracts/escrow.sol/EscrowP2P.json"; 
 const CONTRACT_ADDRESS = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
 
-const OfferCard = ({ offer,vendorID }) => {
+const OfferCard =  ({ offer,vendorID, vendor_address }) => {
+    
     const handleAcceptOffer = async (buyerAddress) => {
         try {
         if (!window.ethereum) {
             alert("MetaMask not detected!");
             return;
         }
-
         const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner();
+
+        console.log(signer.address);
+        console.log(vendor_address);
+
+        if(signer.address != vendor_address){
+            return alert("You are not the vendor for this bid");
+        }
+
         const contract = new ethers.Contract(CONTRACT_ADDRESS, EscrowABI.abi, signer);
 
         console.log("Sending acceptBid tx...");
@@ -29,10 +37,10 @@ const OfferCard = ({ offer,vendorID }) => {
         );
         console.log("Backend updated:", res.data);
 
-        alert("Offer accepted successfully ✅");
+        alert("Offer accepted successfully ");
         } catch (err) {
         console.error("Error accepting offer:", err);
-        alert("Error accepting offer ❌");
+        alert("Error accepting offer ");
         }
     };
     return (
